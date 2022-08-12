@@ -5655,7 +5655,7 @@ PrefabInstance:
     - target: {fileID: 217815823075059427, guid: a715e6498a8f8444e8af75aa518ea006,
         type: 3}
       propertyPath: m_Name
-      value: MainCamera_IsometricPixelPerfect
+      value: MainCamera
       objectReference: {fileID: 0}
     - target: {fileID: 886031103182508492, guid: a715e6498a8f8444e8af75aa518ea006,
         type: 3}
@@ -5905,8 +5905,9 @@ GameObject:
   - component: {fileID: 889265715}
   - component: {fileID: 889265714}
   - component: {fileID: 889265716}
+  - component: {fileID: 889265717}
   m_Layer: 0
-  m_Name: enemynew
+  m_Name: Crab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5995,6 +5996,26 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.24
+--- !u!95 &889265717
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889265713}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 60aeb6e93b5d7460e9628e55beff333e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &968377521
 GameObject:
   m_ObjectHideFlags: 0
@@ -11915,7 +11936,7 @@ GameObject:
   - component: {fileID: 1463556097}
   - component: {fileID: 1463556096}
   m_Layer: 0
-  m_Name: power-up-2
+  m_Name: Shot-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13079,7 +13100,7 @@ GameObject:
   - component: {fileID: 1712453886}
   - component: {fileID: 1712453885}
   m_Layer: 0
-  m_Name: Decorations
+  m_Name: Decorations R-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13214,7 +13235,7 @@ PrefabInstance:
     - target: {fileID: 786888591179576393, guid: 94ba4ae81e0b6ab4d988264f7fc6973e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.557
+      value: 0.5569999
       objectReference: {fileID: 0}
     - target: {fileID: 786888591179576393, guid: 94ba4ae81e0b6ab4d988264f7fc6973e,
         type: 3}
@@ -13229,17 +13250,17 @@ PrefabInstance:
     - target: {fileID: 786888591179576393, guid: 94ba4ae81e0b6ab4d988264f7fc6973e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 786888591179576393, guid: 94ba4ae81e0b6ab4d988264f7fc6973e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 786888591179576393, guid: 94ba4ae81e0b6ab4d988264f7fc6973e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 786888591179576393, guid: 94ba4ae81e0b6ab4d988264f7fc6973e,
         type: 3}
@@ -13279,7 +13300,7 @@ PrefabInstance:
     - target: {fileID: 8171322488322304183, guid: 94ba4ae81e0b6ab4d988264f7fc6973e,
         type: 3}
       propertyPath: m_Name
-      value: Door_Wall
+      value: Main_Door
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94ba4ae81e0b6ab4d988264f7fc6973e, type: 3}
@@ -13368,7 +13389,7 @@ GameObject:
   - component: {fileID: 2002021093}
   - component: {fileID: 2002021092}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Shot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13526,7 +13547,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
 --- !u!114 &931523779015212897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13585,7 +13606,7 @@ GameObject:
   - component: {fileID: 931523779015212896}
   - component: {fileID: 931523779015212897}
   m_Layer: 0
-  m_Name: Player_Isometric_Witch
+  m_Name: Player_Witch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
