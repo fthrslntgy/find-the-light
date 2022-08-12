@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49257
+49471
 Successfully changed project path to: /Users/bugra/Projects/Unity/IsometricGame
 /Users/bugra/Projects/Unity/IsometricGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/bugra/Projects/Unity/IsometricGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 73.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,75 +69,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56671
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000378 seconds.
+Registered in 0.001561 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 76.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.362 seconds
+- Completed reload, in  0.402 seconds
 Domain Reload Profiling:
-	ReloadAssembly (363ms)
-		BeginReloadAssembly (28ms)
+	ReloadAssembly (403ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (275ms)
-			LoadAssemblies (28ms)
+		EndReloadAssembly (276ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (63ms)
+			SetupTypeCache (64ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (170ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (168ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (77ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001480 seconds.
+Registered in 0.006920 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 75.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.706 seconds
 Domain Reload Profiling:
-	ReloadAssembly (688ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (707ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (565ms)
+		EndReloadAssembly (581ms)
 			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (284ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (292ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4062 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (43.6 KB). Loaded Objects now: 4517.
-Memory consumption went from 263.6 MB to 263.5 MB.
-Total: 2.589500 ms (FindLiveObjects: 0.150333 ms CreateObjectMapping: 0.053625 ms MarkObjects: 2.320333 ms  DeleteObjects: 0.064500 ms)
+Unloading 37 unused Assets / (20.3 KB). Loaded Objects now: 4534.
+Memory consumption went from 276.6 MB to 276.5 MB.
+Total: 2.390375 ms (FindLiveObjects: 0.140166 ms CreateObjectMapping: 0.052417 ms MarkObjects: 2.177708 ms  DeleteObjects: 0.019334 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,610 +165,262 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 5112.449269 seconds.
+  path: Assets/Warped Caves/Scenes/demo.unity
+  artifactKey: Guid(b64f59e4f29f04fd2af9c68a380019d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Scenes/demo.unity using Guid(b64f59e4f29f04fd2af9c68a380019d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1067c9a5cca023f94e733f7e7baaaa27') in 0.013690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Warped Caves/Scenes
+  artifactKey: Guid(01ce960f3873b48d6bdf6deb249eba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Scenes using Guid(01ce960f3873b48d6bdf6deb249eba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f20437b87ef96bc7cef191c11bdfb5f') in 0.018211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.791527 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/shot/shot-2.png
+  artifactKey: Guid(f4e17262a295e454a82ad31f72df4882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/shot/shot-2.png using Guid(f4e17262a295e454a82ad31f72df4882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4574ffd93a2eee6b8251e9145d7d07d') in 0.155667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.478772 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/impact/impact-2.png
+  artifactKey: Guid(1672b2f641e214522a3f4685e179a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/impact/impact-2.png using Guid(1672b2f641e214522a3f4685e179a787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45232c79f3b50f03e882d54ea9fe336') in 0.015271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/impact/impact-3.png
+  artifactKey: Guid(1cafae377352e4777bf22d10ddbf1be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/impact/impact-3.png using Guid(1cafae377352e4777bf22d10ddbf1be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7a2c3dc8c8b418ed15e762c0864e86') in 0.009681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.379054 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-1.png
+  artifactKey: Guid(92dc5fd35ad07452cbb4501123046b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-1.png using Guid(92dc5fd35ad07452cbb4501123046b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae307fab8529991af9f1bfb2a8255fb') in 0.014958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-3.png
+  artifactKey: Guid(f274fc530acb846d2bfe70274467e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-3.png using Guid(f274fc530acb846d2bfe70274467e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962a0c72ef2151a5cc479ca19ce1b6a2') in 0.007142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-1.png
+  artifactKey: Guid(19fc4ff85394f44dc9614c956cd2ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-1.png using Guid(19fc4ff85394f44dc9614c956cd2ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fae3c37be3532245ea48720409d54fc') in 0.007605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-2.png
+  artifactKey: Guid(70d35059272a84b34bbaa9e365699821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-2.png using Guid(70d35059272a84b34bbaa9e365699821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e6db271915bd55d1e0f9e969c0e16e') in 0.006336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.919896 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/enemy-death/enemy-death-3.png
+  artifactKey: Guid(a8c868134c2fd4c9cb9570398ae1dd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/enemy-death/enemy-death-3.png using Guid(a8c868134c2fd4c9cb9570398ae1dd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607f0d6a3de1fdfd2778cfada8516c4a') in 0.009679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064832 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/enemy-death/enemy-death-5.png
+  artifactKey: Guid(8db00defd6ecd400f87bab3ee5ca1294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/enemy-death/enemy-death-5.png using Guid(8db00defd6ecd400f87bab3ee5ca1294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f5b409fb2034318d59736cbd1291b2') in 0.009043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053342 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Props/gate-02.png
+  artifactKey: Guid(807938e2e2a1d4f6baa7f8f80efa7f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Props/gate-02.png using Guid(807938e2e2a1d4f6baa7f8f80efa7f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e42d8395881713defd0bf237c1015a7') in 0.008171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.154630 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-3.png
+  artifactKey: Guid(f590bf1777e384a8ea515e0197188aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-3.png using Guid(f590bf1777e384a8ea515e0197188aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9481bb5c6c6cdef34db759d6c04cc79f') in 0.007484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-4.png
+  artifactKey: Guid(433af8dc25b274317a83915e319e95f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-4.png using Guid(433af8dc25b274317a83915e319e95f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f73eb934a91defe40df3883995ecfb') in 0.006984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/jumper-jump/jumper-jump.png
+  artifactKey: Guid(f122e0863fe7e47099afd0b40ef015d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/jumper-jump/jumper-jump.png using Guid(f122e0863fe7e47099afd0b40ef015d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d7c7165e1ce120fab1c93f6d6d0120') in 0.006530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.723248 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/octopus/octopus-2.png
+  artifactKey: Guid(1f153e2e143d747bdbc3923785414876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/octopus/octopus-2.png using Guid(1f153e2e143d747bdbc3923785414876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dc2621fa3d90ff1206680f002cdafd') in 0.013749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027302 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/octopus/octopus-4.png
+  artifactKey: Guid(9deca65eff5514be99809c3250fcbcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/octopus/octopus-4.png using Guid(9deca65eff5514be99809c3250fcbcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5b701bc91fc308f6e6c0d364831501') in 0.008899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016499 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/Props/plant-small.png
+  artifactKey: Guid(a77f62efa515f402db40ed83d40adbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/Props/plant-small.png using Guid(a77f62efa515f402db40ed83d40adbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ea168f095a632c3ce32be73114af6a') in 0.007650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101282 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-duck/player-duck.png
+  artifactKey: Guid(037f4355400544ba2b7a278f7017ca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-duck/player-duck.png using Guid(037f4355400544ba2b7a278f7017ca2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef467cebec2b106d6c177091c4e14c88') in 0.014178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-idle/player-idle-2.png
+  artifactKey: Guid(9acc6d9857bd54a4aa5d0b2d7967fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-idle/player-idle-2.png using Guid(9acc6d9857bd54a4aa5d0b2d7967fb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06a731b4d9f22f3f8b319cf741e2612') in 0.008195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-idle/player-idle-1.png
+  artifactKey: Guid(c2c08c932c2054a0da13bc4dd9db298d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-idle/player-idle-1.png using Guid(c2c08c932c2054a0da13bc4dd9db298d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5934fc01e8f66d2b436e4065768f9ef3') in 0.007816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012370 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-idle/player-idle-4.png
+  artifactKey: Guid(8c2d576730d854e2c88dc5fb039176b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-idle/player-idle-4.png using Guid(8c2d576730d854e2c88dc5fb039176b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bb5e020d08877ba7af5fdd073c077b') in 0.007708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102262 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-jump/player-jump-2.png
+  artifactKey: Guid(47ab6493d16df4bf7a5f36e9e19523ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-jump/player-jump-2.png using Guid(47ab6493d16df4bf7a5f36e9e19523ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964f714c8cc936d9d238d03d931ae93d') in 0.008862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118243 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-jump/player-jump-5.png
+  artifactKey: Guid(7346cc2d80f75454fa091610ef441ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-jump/player-jump-5.png using Guid(7346cc2d80f75454fa091610ef441ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7809e6d11ee11251c758bbce8988750e') in 0.010011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-6.png
+  artifactKey: Guid(3d8a9c6df455a44fdbf025c92771f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-6.png using Guid(3d8a9c6df455a44fdbf025c92771f772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0945ab4fa94be96de64e871ee570fd') in 0.008202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-5.png
+  artifactKey: Guid(2f270f338bc0a47ccba57837832c2e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-5.png using Guid(2f270f338bc0a47ccba57837832c2e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02460060997ad04d22e3a4fcb2a1e08e') in 0.008007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-1.png
+  artifactKey: Guid(2109e8f1bd0074351809bf182a9be8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-1.png using Guid(2109e8f1bd0074351809bf182a9be8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be296189e8df2274650a4fe14c85b60d') in 0.010681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-4.png
+  artifactKey: Guid(f0dbd4412a30d4b4f9600c7eceac4b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-4.png using Guid(f0dbd4412a30d4b4f9600c7eceac4b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6607a27b7ed78f0b63b649f11a7bb4f4') in 0.006383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046044 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-8.png
+  artifactKey: Guid(859d202d134124591a5842707b580b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-8.png using Guid(859d202d134124591a5842707b580b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03551e26651d3649747f02470f33c054') in 0.007698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109652 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-10.png
+  artifactKey: Guid(fec626f322ed4400b9f33172d1ff4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/player/player-run/player-run-10.png using Guid(fec626f322ed4400b9f33172d1ff4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2e66e9e7351a4f5e899d94bf847ba2') in 0.009933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.344102 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/power-up/power-up-2.png
+  artifactKey: Guid(a8a7141849b504fdf918e543db616a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/power-up/power-up-2.png using Guid(a8a7141849b504fdf918e543db616a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaace48f6d489864d24fddcd85ffc54') in 0.015584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/power-up/power-up-7.png
+  artifactKey: Guid(34d9bbfbb5f6f4019a2dcca124369c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/power-up/power-up-7.png using Guid(34d9bbfbb5f6f4019a2dcca124369c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6624fce182363e1548259da7686eb35f') in 0.009855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/power-up/power-up-5.png
+  artifactKey: Guid(ff0f00d62296b4ccd897f34343a2396e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/power-up/power-up-5.png using Guid(ff0f00d62296b4ccd897f34343a2396e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76754a8fc71df56a2ef3065bdbd4d4') in 0.008665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/Fx/power-up/power-up-6.png
+  artifactKey: Guid(41a183b49e26d4c40a29deca2813de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/Fx/power-up/power-up-6.png using Guid(41a183b49e26d4c40a29deca2813de1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab003500d212f9fbddb65aab8575f7b0') in 0.006185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 312.556592 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/tilesets.png
+  artifactKey: Guid(9b4bd070b482c4b31ab0a28c698baa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/tilesets.png using Guid(9b4bd070b482c4b31ab0a28c698baa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9357b15b892bec2c737b8fc55b114c23') in 0.024729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/walls-tileset-sliced.png
+  artifactKey: Guid(e8eeee797a1eb41268234a175d2079ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/walls-tileset-sliced.png using Guid(e8eeee797a1eb41268234a175d2079ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d5294f7047cb1ccbd1aeaea943e769') in 0.059776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Warped Caves/Artwork/Environment/walls-tileset.png
+  artifactKey: Guid(7becc0b79e39340f2b9e112d4636484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Environment/walls-tileset.png using Guid(7becc0b79e39340f2b9e112d4636484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9f78d8c24c5f6b5c03994ba32ea7d6') in 0.007915 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001392 seconds.
+Registered in 0.001397 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x17c347000 may have been prematurely finalized
+Thread 0x284487000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.519 seconds
+- Completed reload, in  0.588 seconds
 Domain Reload Profiling:
-	ReloadAssembly (519ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (396ms)
-			LoadAssemblies (31ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (441ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (162ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4520.
-Memory consumption went from 262.9 MB to 262.8 MB.
-Total: 2.191917 ms (FindLiveObjects: 0.134791 ms CreateObjectMapping: 0.050625 ms MarkObjects: 1.987209 ms  DeleteObjects: 0.018708 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001417 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.590 seconds
-Domain Reload Profiling:
-	ReloadAssembly (591ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (443ms)
-			LoadAssemblies (43ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (169ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (174ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (176ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4523.
-Memory consumption went from 263.1 MB to 263.1 MB.
-Total: 5.029917 ms (FindLiveObjects: 0.522375 ms CreateObjectMapping: 0.072250 ms MarkObjects: 4.412333 ms  DeleteObjects: 0.022334 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001884 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.542 seconds
-Domain Reload Profiling:
-	ReloadAssembly (543ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (419ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (174ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4526.
-Memory consumption went from 263.3 MB to 263.3 MB.
-Total: 2.650917 ms (FindLiveObjects: 0.161083 ms CreateObjectMapping: 0.057792 ms MarkObjects: 2.400916 ms  DeleteObjects: 0.030500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001472 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.534 seconds
-Domain Reload Profiling:
-	ReloadAssembly (534ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (410ms)
-			LoadAssemblies (32ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (170ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4529.
-Memory consumption went from 263.5 MB to 263.5 MB.
-Total: 2.358750 ms (FindLiveObjects: 0.136375 ms CreateObjectMapping: 0.054916 ms MarkObjects: 2.151500 ms  DeleteObjects: 0.015542 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001465 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.539 seconds
-Domain Reload Profiling:
-	ReloadAssembly (539ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (416ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (174ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4532.
-Memory consumption went from 263.8 MB to 263.8 MB.
-Total: 2.453500 ms (FindLiveObjects: 0.122792 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.251250 ms  DeleteObjects: 0.026125 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001471 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.537 seconds
-Domain Reload Profiling:
-	ReloadAssembly (538ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (414ms)
-			LoadAssemblies (32ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (174ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4535.
-Memory consumption went from 264.0 MB to 264.0 MB.
-Total: 2.486041 ms (FindLiveObjects: 0.130209 ms CreateObjectMapping: 0.051625 ms MarkObjects: 2.279167 ms  DeleteObjects: 0.024166 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001487 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.543 seconds
-Domain Reload Profiling:
-	ReloadAssembly (543ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (419ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (175ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (40ms)
 				ProcessInitializeOnLoadAttributes (109ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4538.
-Memory consumption went from 264.2 MB to 264.2 MB.
-Total: 2.279459 ms (FindLiveObjects: 0.131042 ms CreateObjectMapping: 0.061458 ms MarkObjects: 2.064167 ms  DeleteObjects: 0.022208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001714 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.540 seconds
-Domain Reload Profiling:
-	ReloadAssembly (541ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (417ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (174ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (107ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4541.
-Memory consumption went from 264.5 MB to 264.4 MB.
-Total: 2.624042 ms (FindLiveObjects: 0.153084 ms CreateObjectMapping: 0.054667 ms MarkObjects: 2.400167 ms  DeleteObjects: 0.015417 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001798 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.543 seconds
-Domain Reload Profiling:
-	ReloadAssembly (543ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (420ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (175ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4544.
-Memory consumption went from 264.7 MB to 264.7 MB.
-Total: 2.549875 ms (FindLiveObjects: 0.146875 ms CreateObjectMapping: 0.055083 ms MarkObjects: 2.332000 ms  DeleteObjects: 0.015208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001706 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.539 seconds
-Domain Reload Profiling:
-	ReloadAssembly (540ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (415ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (172ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.1 KB). Loaded Objects now: 4547.
-Memory consumption went from 264.9 MB to 264.9 MB.
-Total: 2.538708 ms (FindLiveObjects: 0.156083 ms CreateObjectMapping: 0.054042 ms MarkObjects: 2.313916 ms  DeleteObjects: 0.014208 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001567 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.539 seconds
-Domain Reload Profiling:
-	ReloadAssembly (540ms)
-		BeginReloadAssembly (67ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (416ms)
-			LoadAssemblies (30ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (172ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -777,9 +429,9 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4550.
-Memory consumption went from 265.1 MB to 265.1 MB.
-Total: 2.392250 ms (FindLiveObjects: 0.130583 ms CreateObjectMapping: 0.052625 ms MarkObjects: 2.189375 ms  DeleteObjects: 0.018833 ms)
+Unloading 25 unused Assets / (22.4 KB). Loaded Objects now: 4568.
+Memory consumption went from 284.9 MB to 284.8 MB.
+Total: 2.507750 ms (FindLiveObjects: 0.171375 ms CreateObjectMapping: 0.054167 ms MarkObjects: 2.257042 ms  DeleteObjects: 0.024459 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -794,49 +446,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001782 seconds.
+Registered in 0.001455 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
+Thread 0x16f71f000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.541 seconds
+- Completed reload, in  0.556 seconds
 Domain Reload Profiling:
-	ReloadAssembly (541ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (557ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (418ms)
-			LoadAssemblies (31ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (173ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (172ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (107ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (108ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (23.0 KB). Loaded Objects now: 4553.
-Memory consumption went from 265.4 MB to 265.4 MB.
-Total: 2.305417 ms (FindLiveObjects: 0.148584 ms CreateObjectMapping: 0.051958 ms MarkObjects: 2.091375 ms  DeleteObjects: 0.012833 ms)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4571.
+Memory consumption went from 285.1 MB to 285.0 MB.
+Total: 2.649542 ms (FindLiveObjects: 0.162125 ms CreateObjectMapping: 0.053833 ms MarkObjects: 2.413375 ms  DeleteObjects: 0.019667 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -851,31 +503,145 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001579 seconds.
+Registered in 0.001556 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
+Thread 0x16f71f000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.540 seconds
+- Completed reload, in  0.543 seconds
 Domain Reload Profiling:
-	ReloadAssembly (541ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (544ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4574.
+Memory consumption went from 285.3 MB to 285.3 MB.
+Total: 2.516583 ms (FindLiveObjects: 0.137667 ms CreateObjectMapping: 0.058042 ms MarkObjects: 2.302333 ms  DeleteObjects: 0.017542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001843 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f71f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.549 seconds
+Domain Reload Profiling:
+	ReloadAssembly (550ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (417ms)
-			LoadAssemblies (31ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (422ms)
+			LoadAssemblies (33ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
+			RebuildScriptCaches (31ms)
 			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4577.
+Memory consumption went from 285.5 MB to 285.5 MB.
+Total: 2.475542 ms (FindLiveObjects: 0.131084 ms CreateObjectMapping: 0.058125 ms MarkObjects: 2.270875 ms  DeleteObjects: 0.014917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001617 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16f71f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.557 seconds
+Domain Reload Profiling:
+	ReloadAssembly (557ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (427ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (175ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
@@ -888,12 +654,12 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4556.
-Memory consumption went from 265.6 MB to 265.6 MB.
-Total: 2.503708 ms (FindLiveObjects: 0.139209 ms CreateObjectMapping: 0.052791 ms MarkObjects: 2.296042 ms  DeleteObjects: 0.014791 ms)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4580.
+Memory consumption went from 285.7 MB to 285.7 MB.
+Total: 2.613208 ms (FindLiveObjects: 0.198792 ms CreateObjectMapping: 0.057708 ms MarkObjects: 2.339250 ms  DeleteObjects: 0.016833 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -908,49 +674,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001503 seconds.
+Registered in 0.001620 seconds.
 Begin MonoManager ReloadAssembly
-Thread 0x16efff000 may have been prematurely finalized
+Thread 0x16f71f000 may have been prematurely finalized
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/bugra/Projects/Unity/IsometricGame/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.532 seconds
+- Completed reload, in  0.556 seconds
 Domain Reload Profiling:
-	ReloadAssembly (532ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (556ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (408ms)
-			LoadAssemblies (31ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (151ms)
+			SetupTypeCache (157ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (169ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (176ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (105ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (109ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 4559.
-Memory consumption went from 265.8 MB to 265.8 MB.
-Total: 2.479667 ms (FindLiveObjects: 0.132583 ms CreateObjectMapping: 0.052208 ms MarkObjects: 2.269250 ms  DeleteObjects: 0.024792 ms)
+Unloading 25 unused Assets / (22.5 KB). Loaded Objects now: 4583.
+Memory consumption went from 286.0 MB to 285.9 MB.
+Total: 2.585792 ms (FindLiveObjects: 0.159166 ms CreateObjectMapping: 0.062084 ms MarkObjects: 2.349708 ms  DeleteObjects: 0.014417 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
