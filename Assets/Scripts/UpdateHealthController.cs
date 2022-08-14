@@ -35,7 +35,7 @@ public class UpdateHealthController : MonoBehaviour
             isPlayerColliding = true;
             
         }
-        else if(collision.gameObject.tag == "Health")
+        else if(collision.gameObject.tag == "Health" && _healthController.playerHealth < 3)
         {
             _healthController.playerHealth++;
             _healthController.UpdateHealth();
