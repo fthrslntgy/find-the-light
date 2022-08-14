@@ -5,6 +5,9 @@ using UnityEngine;
 public class UpdateHealthController : MonoBehaviour
 {
     [SerializeField] private HealthController _healthController;
+    public GameOverScreen GameOverScreen;
+    public WinScreen WinScreen;
+
     // How long the player needs to stay at location
     public float timer = 0.0f;
     private int seconds;
@@ -26,10 +29,16 @@ public class UpdateHealthController : MonoBehaviour
             seconds = (int)(timer % 60);
         }
 
+        if (_healthController.playerHealth == 0)
+        {
+            GameOver();
+        }
+
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        GameObject light = GameObject.Find("Light");
         if(collision.gameObject.tag == "Enemy")
         {
             isPlayerColliding = true;
@@ -41,6 +50,15 @@ public class UpdateHealthController : MonoBehaviour
             _healthController.UpdateHealth();
             Destroy(collision.gameObject);
         }
+        else if(collision.gameObject.tag == "Light")
+        {
+            Destroy(collision.gameObject);
+        }
+        else if(collision.gameObject.tag == "Finish" && light == null)
+        {
+            Debug.Log("You Win!");
+            YouWin();
+        }
     }
     // Check if the player is still at location, if they are spawn our secret item
     void OnCollisionStay2D(Collision2D other)
@@ -48,6 +66,10 @@ public class UpdateHealthController : MonoBehaviour
 
         if(other.gameObject.tag == "Enemy" && isPlayerColliding == true)
         {
+            if (Input.GetKeyDown("space"))
+            {
+                other.gameObject.GetComponent<EnemyController>().health -= 1;
+            }
             if(seconds == 1)
             {
                 _healthController.playerHealth--;
@@ -67,4 +89,11 @@ public class UpdateHealthController : MonoBehaviour
         }
     }
 
+    public void GameOver() {
+        GameOverScreen.Setup();
+    }
+
+    public void YouWin() {
+        WinScreen.Setup();
+    }
 }

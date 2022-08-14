@@ -6,6 +6,7 @@ public class EnemyController : MonoBehaviour
 {
     public Transform targ;
     public float speed = 1.0f;
+    public int health = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,10 @@ public class EnemyController : MonoBehaviour
         if(dist < 3.0f)
         {
             transform.position = Vector3.MoveTowards(transform.position, targ.position, speed * Time.deltaTime);
+        }
+        if(health == 0)
+        {
+            Destroy(gameObject);
         }
     }
 }

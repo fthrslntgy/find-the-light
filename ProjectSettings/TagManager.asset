@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Enemy
   - Health
+  - SpeedUp
+  - Light
   layers:
   - Default
   - TransparentFX
